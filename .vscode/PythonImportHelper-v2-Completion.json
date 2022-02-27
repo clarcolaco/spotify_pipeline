@@ -1,0 +1,143 @@
+[
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "check_if_valid_data",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def check_if_valid_data(df: pd.DataFrame) -> bool:\n    # Check if dataframe is empty\n    if df.empty:\n        print(\"No songs downloaded. Finishing execution\")\n        return False\n        # Primary Key Check\n    if pd.Series(df['played_at']).is_unique:\n        pass\n    else:\n        raise Exception(\"Primary Key check is violated\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_LOCATION",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "DATABASE_LOCATION = \"sqlite:///my_played_tracks.sqlite\"\nUSER_ID = \"ezztmfousdud4q0wpyy05753i\"\nTOKEN = \"BQAvadtCTJBKR3DXU2--nr0M67aXSfaWSYNCm5x-ycBvbIUP2DAss2iIZeFyyLt1XC_wNqqMtzPeuCLAW92yLflMP8g3L_mWDT8TNSGjrJu5iDdQjGtljx1N6vVW3uFKDORvofOIhgMdaVXeM4b32UFPGuPr_vLeLIWe\"\n# Generate your token here:  https://developer.spotify.com/console/get-recently-played/\n# Note: You need a Spotify account (can be easily created for free)\ndef check_if_valid_data(df: pd.DataFrame) -> bool:\n    # Check if dataframe is empty\n    if df.empty:\n        print(\"No songs downloaded. Finishing execution\")\n        return False",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "USER_ID",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "USER_ID = \"ezztmfousdud4q0wpyy05753i\"\nTOKEN = \"BQAvadtCTJBKR3DXU2--nr0M67aXSfaWSYNCm5x-ycBvbIUP2DAss2iIZeFyyLt1XC_wNqqMtzPeuCLAW92yLflMP8g3L_mWDT8TNSGjrJu5iDdQjGtljx1N6vVW3uFKDORvofOIhgMdaVXeM4b32UFPGuPr_vLeLIWe\"\n# Generate your token here:  https://developer.spotify.com/console/get-recently-played/\n# Note: You need a Spotify account (can be easily created for free)\ndef check_if_valid_data(df: pd.DataFrame) -> bool:\n    # Check if dataframe is empty\n    if df.empty:\n        print(\"No songs downloaded. Finishing execution\")\n        return False\n        # Primary Key Check",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "TOKEN",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "TOKEN = \"BQAvadtCTJBKR3DXU2--nr0M67aXSfaWSYNCm5x-ycBvbIUP2DAss2iIZeFyyLt1XC_wNqqMtzPeuCLAW92yLflMP8g3L_mWDT8TNSGjrJu5iDdQjGtljx1N6vVW3uFKDORvofOIhgMdaVXeM4b32UFPGuPr_vLeLIWe\"\n# Generate your token here:  https://developer.spotify.com/console/get-recently-played/\n# Note: You need a Spotify account (can be easily created for free)\ndef check_if_valid_data(df: pd.DataFrame) -> bool:\n    # Check if dataframe is empty\n    if df.empty:\n        print(\"No songs downloaded. Finishing execution\")\n        return False\n        # Primary Key Check\n    if pd.Series(df['played_at']).is_unique:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_LOCATION",
+        "kind": 5,
+        "importPath": "teste",
+        "description": "teste",
+        "peekOfCode": "DATABASE_LOCATION = \"sqlite:///my_played_tracks.sqlite\"\nUSER_ID = \"ezztmfousdud4q0wpyy05753i\"\nTOKEN = \"BQAvadtCTJBKR3DXU2--nr0M67aXSfaWSYNCm5x-ycBvbIUP2DAss2iIZeFyyLt1XC_wNqqMtzPeuCLAW92yLflMP8g3L_mWDT8TNSGjrJu5iDdQjGtljx1N6vVW3uFKDORvofOIhgMdaVXeM4b32UFPGuPr_vLeLIWe\"\nif __name__ == \"__main__\":\n    headers = {\n        \"Accept\": \"application/json\",\n        \"Content-Type\": \"application/json\",\n        \"Authorization\": \"Bearer {token}\".format(token=TOKEN)\n    }\n    today = datetime.datetime.now()",
+        "detail": "teste",
+        "documentation": {}
+    },
+    {
+        "label": "USER_ID",
+        "kind": 5,
+        "importPath": "teste",
+        "description": "teste",
+        "peekOfCode": "USER_ID = \"ezztmfousdud4q0wpyy05753i\"\nTOKEN = \"BQAvadtCTJBKR3DXU2--nr0M67aXSfaWSYNCm5x-ycBvbIUP2DAss2iIZeFyyLt1XC_wNqqMtzPeuCLAW92yLflMP8g3L_mWDT8TNSGjrJu5iDdQjGtljx1N6vVW3uFKDORvofOIhgMdaVXeM4b32UFPGuPr_vLeLIWe\"\nif __name__ == \"__main__\":\n    headers = {\n        \"Accept\": \"application/json\",\n        \"Content-Type\": \"application/json\",\n        \"Authorization\": \"Bearer {token}\".format(token=TOKEN)\n    }\n    today = datetime.datetime.now()\n    yesterday = today - datetime.timedelta(days=1)",
+        "detail": "teste",
+        "documentation": {}
+    },
+    {
+        "label": "TOKEN",
+        "kind": 5,
+        "importPath": "teste",
+        "description": "teste",
+        "peekOfCode": "TOKEN = \"BQAvadtCTJBKR3DXU2--nr0M67aXSfaWSYNCm5x-ycBvbIUP2DAss2iIZeFyyLt1XC_wNqqMtzPeuCLAW92yLflMP8g3L_mWDT8TNSGjrJu5iDdQjGtljx1N6vVW3uFKDORvofOIhgMdaVXeM4b32UFPGuPr_vLeLIWe\"\nif __name__ == \"__main__\":\n    headers = {\n        \"Accept\": \"application/json\",\n        \"Content-Type\": \"application/json\",\n        \"Authorization\": \"Bearer {token}\".format(token=TOKEN)\n    }\n    today = datetime.datetime.now()\n    yesterday = today - datetime.timedelta(days=1)\n    yesterday_unix_timestamp = int(yesterday.timestamp()) * 1000",
+        "detail": "teste",
+        "documentation": {}
+    }
+]
